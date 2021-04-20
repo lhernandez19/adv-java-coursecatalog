@@ -5,10 +5,10 @@ import javax.swing.*;
 /**
  * Describe responsibilities here.
  *
- * @author your name goes here
+ * @author your name goes here: LDH
  * @version 1.00
  */
-public class AdvancedJavaCourse {
+public class AdvancedJavaCourse extends Course{
 
     String courseName;
     private String courseNumber;
@@ -34,6 +34,11 @@ public class AdvancedJavaCourse {
 
     public void setCourseNumber(String courseNumber) {
         this.courseNumber = courseNumber;
+    }
+
+    @Override
+    public double getCredits() {
+        return credits;
     }
 
     public String getPrerequisites() {
