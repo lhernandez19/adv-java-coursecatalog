@@ -5,10 +5,10 @@ import javax.swing.*;
 /**
  * Describe responsibilities here.
  *
- * @author your name goes here
+ * @author your name goes here LDH
  * @version 1.00
  */
-public class IntroToProgrammingCourse {
+public class IntroToProgrammingCourse implements Course {
 
     private String courseName;
     private String courseNumber;
